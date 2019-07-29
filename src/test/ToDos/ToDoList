@@ -1,0 +1,14 @@
+1) Introduce Chrome Driver
+2) Version control (github)
+3) Base class (maveCucumberAllure framework)
+4) Page classes
+5) utils class
+    Config
+    Reading
+    Random - data generation
+
+Secondary tasks:
+1) UML diagram
+2) Code reviews
+3) Extra browsers
+4) Multi system support

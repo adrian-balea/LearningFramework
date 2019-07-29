@@ -6,10 +6,6 @@ formatter.feature({
   "id": "login-into-account",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 1949409607,
-  "status": "passed"
-});
 formatter.scenario({
   "line": 3,
   "name": "Login into account with correct credentials",
@@ -52,46 +48,38 @@ formatter.match({
   "location": "Login.user_navigates_to_stackoverflow_website()"
 });
 formatter.result({
-  "duration": 1364820588,
-  "status": "passed"
+  "duration": 115584015,
+  "error_message": "java.lang.NullPointerException\n\tat pageObjects.Homepage.navigateToHomepage(Homepage.java:6)\n\tat steps.Login.user_navigates_to_stackoverflow_website(Login.java:18)\n\tat ✽.Given User navigates to stackoverflow website(Login.feature:5)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Login.user_clicks_on_login()"
 });
 formatter.result({
-  "duration": 26976,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Login.user_enters_a_valid_username()"
 });
 formatter.result({
-  "duration": 20467,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Login.user_enters_a_valid_password()"
 });
 formatter.result({
-  "duration": 26355,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Login.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 28608,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Login.user_should_be_taken_to_the_succesful_login_page()"
 });
 formatter.result({
-  "duration": 30944,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 119822890,
-  "status": "passed"
+  "status": "skipped"
 });
 });

@@ -7,29 +7,15 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pageObjects.Homepage;
 
 public class Login {
 
-    ChromeDriver driver;
 
-    @Before
-    public void setup(){
-        System.setProperty("webdriver.chrome.driver", "src/test/java/resources/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().fullscreen();
-    }
-
-    @After
-    public void  tearDown(){
-        if (driver != null){
-            driver.manage().deleteAllCookies();
-            driver.quit();
-        }
-    }
 
     @Given("^User navigates to stackoverflow website$")
     public void user_navigates_to_stackoverflow_website() throws Throwable {
-       driver.get("https://stackoverflow.com/");
+        Homepage.navigateToHomepage();
     }
 
     @And("^user clicks on login$")

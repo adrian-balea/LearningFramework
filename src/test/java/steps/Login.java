@@ -6,16 +6,31 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pageObjects.BaseClass;
 import pageObjects.Homepage;
+
+import static org.junit.Assert.assertTrue;
+
+//import pageObjects.BaseClass;
 
 public class Login {
 
+    BaseClass bClass = new BaseClass();
+    Homepage homepage = new Homepage();
 
+   // WebDriver driver;
 
     @Given("^User navigates to stackoverflow website$")
     public void user_navigates_to_stackoverflow_website() throws Throwable {
-        Homepage.navigateToHomepage();
+        bClass.driver.get(homepage.getMasterURL());
+        assertTrue("/n **** ERROR - WRONG URL",bClass.driver.getCurrentUrl().equals(homepage.getMasterURL()));
+        assertTrue("/n **** ERROR - Heading isn't correct ",bClass.driver.getTitle().contains("WebDriverUniversity"));
+
+        System.out.println("It works!");
+        bClass.tearDown();
     }
 
     @And("^user clicks on login$")
@@ -44,5 +59,8 @@ public class Login {
     }
 
 
-
+    @Then("^user click on contact Us$")
+    public void userClickOnContactUs() throws InterruptedException {
+        homepage.clickContactUsLInk();
+    }
 }

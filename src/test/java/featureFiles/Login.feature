@@ -4,6 +4,7 @@ Feature: Login into account
 
     Given User navigates to stackoverflow website
     And user clicks on login
+    Then user click on contact Us
     And user enters a valid username
     And user enters a valid password
     When user clicks on the login button

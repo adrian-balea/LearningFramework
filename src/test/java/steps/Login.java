@@ -1,35 +1,18 @@
 package steps;
 
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+import BaseClass.BaseClass;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
 
-public class Login {
-
-    ChromeDriver driver;
-
-    @Before
-    public void setup(){
-        System.setProperty("webdriver.chrome.driver", "src/test/java/resources/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().fullscreen();
-    }
-
-    @After
-    public void  tearDown(){
-        if (driver != null){
-            driver.manage().deleteAllCookies();
-            driver.quit();
-        }
-    }
+public class Login extends BaseClass {
 
     @Given("^User navigates to stackoverflow website$")
     public void user_navigates_to_stackoverflow_website() throws Throwable {
        driver.get("https://stackoverflow.com/");
+       tearDown();
     }
 
     @And("^user clicks on login$")

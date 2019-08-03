@@ -11,7 +11,7 @@ public class Login extends BaseClass {
 
     @Given("^User navigates to stackoverflow website$")
     public void user_navigates_to_stackoverflow_website() throws Throwable {
-       driver.get("https://stackoverflow.com/");
+       //driver.get("https://stackoverflow.com/");
        tearDown();
     }
 

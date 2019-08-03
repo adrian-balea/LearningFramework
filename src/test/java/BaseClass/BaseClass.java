@@ -2,6 +2,7 @@ package BaseClass;
 
 // Base class to hold all master webDriver functionality
 
+import Util.ReadFrom;
 import org.junit.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,16 +11,23 @@ public class BaseClass {
 
     public WebDriver driver;
     private String osType = getOSType();
+    public final String baseURL = setBaseUrl();
 
+    private String setBaseUrl() {
+        return ReadFrom.propertiesFile("defaultSetupProperties","url");
+    }
+
+    // Default constructor - will ALWAYS run when baseclass is called
+    // Will always open Chrome driver and go to default URL - defined in the properties file
     public BaseClass() {
         chromeDriverOSPathConstructor();
         startWebDriver();
     }
 
     public void startWebDriver(){
-        System.setProperty("webdriver.chrome.driver", "src/test/java/resources/Win32/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().fullscreen();
+        driver.get(baseURL);
     }
 
     @After

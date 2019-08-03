@@ -2,7 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 
-public class Homepage extends BaseClass{
+public class Homepage extends BaseClass {
 
     public String getMasterURL() {
         return masterURL;

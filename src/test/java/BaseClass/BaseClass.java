@@ -48,7 +48,7 @@ public class BaseClass {
         if (osType.contains("Mac")) {
             // if Mac calling the mac instance of Chrome.exe (without .exe as Mac)
             System.out.println("Mac OS detected");
-            System.setProperty("webdriver.chrome.driver", "src/test/java/resources/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "src/test/java/resources/Mac/chromedriver");
         } else if (osType.contains("Windows")) {
             System.out.println("Windows OS Detected");
             System.setProperty("webdriver.chrome.driver", "src/test/java/resources/Win32/chromedriver.exe");

@@ -1,13 +1,15 @@
+/*
 package pageObjects;
 
 // Base class to hold all master webDriver functionality
 
+import Util.DriverFactory;
 import Util.ReadFrom;
 import org.junit.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BaseClass {
+public class BaseClass  {
 
     public WebDriver driver;
     private String osType = getOSType();
@@ -56,3 +58,4 @@ public class BaseClass {
     }
 
 }
+*/

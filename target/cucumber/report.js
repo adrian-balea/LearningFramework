@@ -6,6 +6,10 @@ formatter.feature({
   "id": "login-into-account",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 1776702960,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 3,
   "name": "Login into account with correct credentials",
@@ -53,49 +57,53 @@ formatter.match({
   "location": "Login.user_navigates_to_stackoverflow_website()"
 });
 formatter.result({
-  "duration": 3178014691,
+  "duration": 4599353265,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_clicks_on_login()"
 });
 formatter.result({
-  "duration": 33978,
+  "duration": 33626,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.userClickOnContactUs()"
 });
 formatter.result({
-  "duration": 28174,
+  "duration": 23755,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_enters_a_valid_username()"
 });
 formatter.result({
-  "duration": 46164,
+  "duration": 39536,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_enters_a_valid_password()"
 });
 formatter.result({
-  "duration": 45136,
+  "duration": 35624,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_clicks_on_the_login_button()"
 });
 formatter.result({
-  "duration": 145701,
+  "duration": 37714,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_should_be_taken_to_the_succesful_login_page()"
 });
 formatter.result({
-  "duration": 26808,
+  "duration": 27257,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 130415084,
   "status": "passed"
 });
 });

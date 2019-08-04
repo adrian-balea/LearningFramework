@@ -1,17 +1,20 @@
 package steps;
 
-import pageObjects.BaseClass;
+import Util.DriverFactory;
+//import pageObjects.BaseClass;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class Login extends BaseClass {
+public class Login extends DriverFactory {
 
     @Given("^User navigates to stackoverflow website$")
     public void user_navigates_to_stackoverflow_website() throws Throwable {
-       //driver.get("https://stackoverflow.com/");
-       tearDown();
+        getDriver().get("https://www.stackoverflow.com");
+        Thread.sleep(2000);
+
+
 
     }
 

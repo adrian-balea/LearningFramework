@@ -9,6 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
+    public ReadFrom readFrom;
     public static WebDriver driver;
     private String osType = getOSType();
     private String browserName = null;

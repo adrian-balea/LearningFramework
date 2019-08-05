@@ -2,6 +2,7 @@ package steps;
 
 import Util.DriverFactory;
 //import pageObjects.BaseClass;
+import Util.ReadFrom;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -11,6 +12,7 @@ public class Login extends DriverFactory {
 
     @Given("^User navigates to stackoverflow website$")
     public void user_navigates_to_stackoverflow_website() throws Throwable {
+        System.out.println("\n **** testing ReadFrom functionality : " + ReadFrom.propertiesFile("defaultSetupProperties","url"));
         getDriver().get("https://www.stackoverflow.com");
         Thread.sleep(2000);
 

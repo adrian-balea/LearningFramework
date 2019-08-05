@@ -2,7 +2,7 @@ package Util;
 
 public class Constant {
     /**Config Properties file **/
-    public final static String CONFIG_PROPERTIES_DIRECTORY = "resuources/properties/config.properties";
+    public final static String CONFIG_PROPERTIES_DIRECTORY = "src/test/resources/properties/";
 
     public final static String MAC_GECKO_DRIVER_DIRECTORY = System.getProperty("user.dir") + "/src/test/java/resources/Mac/geckodiver";
     public final static String WIN_GECKO_DRIVER_DIRECTORY = System.getProperty("user.dir") + "src/test/java/resources/Win32/geckodiver.exe";

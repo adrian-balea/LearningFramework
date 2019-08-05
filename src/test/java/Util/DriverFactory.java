@@ -12,7 +12,7 @@ public class DriverFactory {
     public ReadFrom readFrom;
     public static WebDriver driver;
     private String osType = getOSType();
-    private String browserName = null;
+
 
     private String getOSType(){
         return System.getProperty("os.name");
@@ -21,7 +21,8 @@ public class DriverFactory {
 
     public WebDriver getDriver() {
 
-        browserName = "chrome";
+        String browserName = ReadFrom.propertiesFile("defaultSetupProperties","browser");
+
 
         try {
             System.out.println(osType + "detected");
@@ -82,7 +83,5 @@ public class DriverFactory {
         System.out.println("Return driver");
         return driver;
     }
-
-
 
 }

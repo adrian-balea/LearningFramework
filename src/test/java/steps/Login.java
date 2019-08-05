@@ -7,6 +7,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
 
 public class Login extends DriverFactory {
 
@@ -14,6 +15,8 @@ public class Login extends DriverFactory {
     public void user_navigates_to_stackoverflow_website() throws Throwable {
         System.out.println("\n **** testing ReadFrom functionality : " + ReadFrom.propertiesFile("defaultSetupProperties","url"));
         getDriver().get("https://www.stackoverflow.com");
+        Thread.sleep(2000);
+        getDriver().findElement(By.xpath( "/html/body/header/div/ol[2]/li[2]/a[1]")).click();
         Thread.sleep(2000);
 
 

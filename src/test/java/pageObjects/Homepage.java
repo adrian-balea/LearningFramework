@@ -1,27 +1,19 @@
-/*
+
 package pageObjects;
 
-import org.openqa.selenium.By;
 
-public class Homepage extends BaseClass {
+import java.io.IOException;
 
-    public String getMasterURL() {
-        return masterURL;
+public class Homepage extends BasePage {
+
+
+    public Homepage() throws IOException {
+        super();
     }
 
-    private String masterURL = "https://www.webdriveruniversity.com/";
-    private By contactUsLink = By.cssSelector("#contact-us");
-
-    public void clickContactUsLInk() throws InterruptedException {
-        Thread.sleep(5000);
-        driver.findElement(By.cssSelector("#contact-us")).click();
-        //driver.findElement(By.linkText("CONTACT US")).click();
+    public Homepage getHomepage() throws IOException {
+        getDriver().get("http://www.webdriveruniversity.com/");
+        return  new Homepage();
     }
-
-
-
-    //public void navigateToHomepage(){
-     //   driver.get("http://webdriveruniversity.com/");
-   // }
 }
-*/
+

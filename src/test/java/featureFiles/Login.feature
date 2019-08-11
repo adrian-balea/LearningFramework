@@ -1,11 +1,11 @@
-Feature: Login into account
+Feature: Submit the Contact us page
 
   Scenario: Login into account with correct credentials
 
-    Given User navigates to stackoverflow website
-    And user clicks on login
-    Then user click on contact Us
-    And user enters a valid username
-    And user enters a valid password
-    When user clicks on the login button
-    Then user should be taken to the succesful login page
+    Given User navigates to contact us page
+    And user enters the first name
+    And user enters last name
+    And user enters email
+    And user enters a comment
+    When user clicks on the submit button
+    Then user is landed on the thank you page

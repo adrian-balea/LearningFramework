@@ -1,109 +1,109 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
 formatter.feature({
   "line": 1,
-  "name": "Login into account",
+  "name": "Submit the Contact us page",
   "description": "",
-  "id": "login-into-account",
+  "id": "submit-the-contact-us-page",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1888810042,
+  "duration": 1898449340,
   "status": "passed"
 });
 formatter.scenario({
   "line": 3,
   "name": "Login into account with correct credentials",
   "description": "",
-  "id": "login-into-account;login-into-account-with-correct-credentials",
+  "id": "submit-the-contact-us-page;login-into-account-with-correct-credentials",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 5,
-  "name": "User navigates to stackoverflow website",
+  "name": "User navigates to contact us page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "user clicks on login",
+  "name": "user enters the first name",
   "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "user click on contact Us",
-  "keyword": "Then "
+  "name": "user enters last name",
+  "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "user enters a valid username",
+  "name": "user enters email",
   "keyword": "And "
 });
 formatter.step({
   "line": 9,
-  "name": "user enters a valid password",
+  "name": "user enters a comment",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "user clicks on the login button",
+  "name": "user clicks on the submit button",
   "keyword": "When "
 });
 formatter.step({
   "line": 11,
-  "name": "user should be taken to the succesful login page",
+  "name": "user is landed on the thank you page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Login.user_navigates_to_stackoverflow_website()"
+  "location": "ContactUsSteps.user_navigates_to_contact_us_page()"
 });
 formatter.result({
-  "duration": 9571275389,
+  "duration": 350324424,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login.user_clicks_on_login()"
+  "location": "ContactUsSteps.user_enters_the_first_name()"
 });
 formatter.result({
-  "duration": 116832,
+  "duration": 193407644,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login.userClickOnContactUs()"
+  "location": "ContactUsSteps.user_enters_last_name()"
 });
 formatter.result({
-  "duration": 107893,
+  "duration": 126796256,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login.user_enters_a_valid_username()"
+  "location": "ContactUsSteps.user_enters_email()"
 });
 formatter.result({
-  "duration": 48001,
+  "duration": 180587200,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login.user_enters_a_valid_password()"
+  "location": "ContactUsSteps.user_enters_a_comment()"
 });
 formatter.result({
-  "duration": 31617,
+  "duration": 174987152,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login.user_clicks_on_the_login_button()"
+  "location": "ContactUsSteps.user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 105867,
+  "duration": 703660928,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login.user_should_be_taken_to_the_succesful_login_page()"
+  "location": "ContactUsSteps.user_is_landed_on_the_thank_you_page()"
 });
 formatter.result({
-  "duration": 36016,
+  "duration": 2073100652,
   "status": "passed"
 });
 formatter.after({
-  "duration": 142107972,
+  "duration": 113268612,
   "status": "passed"
 });
 });

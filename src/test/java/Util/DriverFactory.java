@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.PageFactory;
+import pageObjects.ContactUs_Page;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,17 +14,15 @@ public class DriverFactory {
     public ReadFrom readFrom;
     public static WebDriver driver;
     private String osType = getOSType();
-
-
     private String getOSType(){
         return System.getProperty("os.name");
     }
+    public static ContactUs_Page contactUsPage;
 
 
     public WebDriver getDriver() {
 
         String browserName = ReadFrom.propertiesFile("defaultSetupProperties","browser");
-
 
         try {
             System.out.println(osType + "detected");
@@ -78,7 +78,7 @@ public class DriverFactory {
         } finally {
 
             driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-            System.out.println("Finally");
+            contactUsPage = PageFactory.initElements(driver,ContactUs_Page.class);
         }
         System.out.println("Return driver");
         return driver;

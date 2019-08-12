@@ -18,25 +18,24 @@ public class ContactUsSteps extends DriverFactory {
         contactUsPage.getContactUsPage();
     }
 
-    @And ("^user enters the first name$")
-    public void user_enters_the_first_name() throws Throwable {
-        contactUsPage.enterFirstName("Adrian");
+    @And ("^user enters \"([^\"]*)\" as first name$")
+    public void user_enters_the_first_name(String firstName) throws Throwable {
+        contactUsPage.enterFirstName(firstName);
     }
 
-    @And ("^user enters last name$")
-    public void user_enters_last_name() throws Throwable {
-        contactUsPage.enterLastName("Balea");
-
+    @And ("^user enters \"([^\"]*)\" as last name$")
+    public void user_enters_last_name(String lastName) throws Throwable {
+        contactUsPage.enterLastName(lastName);
     }
 
-    @And ("^user enters email$")
-    public void user_enters_email() throws Throwable {
-        contactUsPage.enterEmail("adrian.balea@mailinator.com");
+    @And ("^user enters \"([^\"]*)\" as email$")
+    public void user_enters_email(String email) throws Throwable {
+        contactUsPage.enterEmail(email);
     }
 
-    @And ("^user enters a comment$")
-    public void user_enters_a_comment() throws Throwable {
-        contactUsPage.enterComment("Comment for the contact us page");
+    @And ("^user enters \"([^\"]*)\" comment$")
+    public void user_enters_a_comment(String comment) throws Throwable {
+        contactUsPage.enterComment(comment);
     }
 
     @When("^user clicks on the submit button$")

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
             glue = ("steps/"),
             monochrome=true,
             tags = {},
-            plugin = {"pretty","html:target/cucumber"}
+            plugin = {"pretty","html:target/cucumber", "io.qameta.allure.cucumberjvm.AllureCucumberJvm"}
     )
 
 public class MainRunner {

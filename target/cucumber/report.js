@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1868596387,
+  "duration": 2331987360,
   "status": "passed"
 });
 formatter.scenario({
@@ -141,7 +141,7 @@ formatter.match({
   "location": "ContactUsSteps.user_navigates_to_contact_us_page()"
 });
 formatter.result({
-  "duration": 574927688,
+  "duration": 410589618,
   "status": "passed"
 });
 formatter.match({
@@ -154,7 +154,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_the_first_name(String)"
 });
 formatter.result({
-  "duration": 186870149,
+  "duration": 270260773,
   "status": "passed"
 });
 formatter.match({
@@ -167,7 +167,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_last_name(String)"
 });
 formatter.result({
-  "duration": 130542343,
+  "duration": 165092505,
   "status": "passed"
 });
 formatter.match({
@@ -180,7 +180,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_email(String)"
 });
 formatter.result({
-  "duration": 182524831,
+  "duration": 203235453,
   "status": "passed"
 });
 formatter.match({
@@ -193,25 +193,25 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_a_comment(String)"
 });
 formatter.result({
-  "duration": 165805362,
+  "duration": 192470520,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 1015358174,
+  "duration": 568433888,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.user_is_landed_on_the_thank_you_page()"
 });
 formatter.result({
-  "duration": 2084799824,
+  "duration": 2078282704,
   "status": "passed"
 });
 formatter.after({
-  "duration": 131914968,
+  "duration": 166197734,
   "status": "passed"
 });
 });

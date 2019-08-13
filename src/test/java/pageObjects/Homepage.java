@@ -12,7 +12,6 @@ public class Homepage extends BasePage {
     }
 
     public Homepage getHomepage() throws IOException {
-        getDriver().get("http://www.webdriveruniversity.com/");
         return  new Homepage();
     }
 }

@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
+import pageObjects.ClickButtons_Page;
 import pageObjects.ContactUs_Page;
 
 import java.util.concurrent.TimeUnit;
@@ -18,6 +19,7 @@ public class DriverFactory {
         return System.getProperty("os.name");
     }
     public static ContactUs_Page contactUsPage;
+    public static ClickButtons_Page buttonsPage;
 
 
     public WebDriver getDriver() {
@@ -79,8 +81,8 @@ public class DriverFactory {
 
             driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
             contactUsPage = PageFactory.initElements(driver,ContactUs_Page.class);
+            buttonsPage = PageFactory.initElements(driver, ClickButtons_Page.class);
         }
-        System.out.println("Return driver");
         return driver;
     }
 

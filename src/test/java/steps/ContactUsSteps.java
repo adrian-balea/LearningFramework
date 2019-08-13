@@ -1,7 +1,6 @@
 package steps;
 
 import Util.DriverFactory;
-//import pageObjects.BaseClass;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -47,7 +46,7 @@ public class ContactUsSteps extends DriverFactory {
     @Then("^user is landed on the thank you page$")
     public void user_is_landed_on_the_thank_you_page() throws Throwable {
         contactUsPage.succerssfullConfirmationCheck();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
 

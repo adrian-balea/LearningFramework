@@ -1,4 +1,82 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("ClickButtons.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Click the buttons",
+  "description": "",
+  "id": "click-the-buttons",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Buttons"
+    }
+  ]
+});
+formatter.before({
+  "duration": 2223961091,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "Click the buttons",
+  "description": "",
+  "id": "click-the-buttons;click-the-buttons",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 6,
+  "name": "User navigates to click buttons page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "click on the webelement click button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user closes the popup",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "the popup1 is closed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ClickButtonsSteps.user_navigates_to_click_buttons_page()"
+});
+formatter.result({
+  "duration": 448150440,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ClickButtonsSteps.click_on_the_webelement_click_button()"
+});
+formatter.result({
+  "duration": 171337839,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ClickButtonsSteps.user_closes_the_popup()"
+});
+formatter.result({
+  "duration": 630825539,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ClickButtonsSteps.the_popup_is_closed()"
+});
+formatter.result({
+  "duration": 537383290,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 125964322,
+  "status": "passed"
+});
+formatter.uri("SumbitContactUsForm.feature");
 formatter.feature({
   "line": 1,
   "name": "Submit the Contact us page",
@@ -79,7 +157,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2331987360,
+  "duration": 1148382212,
   "status": "passed"
 });
 formatter.scenario({
@@ -141,7 +219,7 @@ formatter.match({
   "location": "ContactUsSteps.user_navigates_to_contact_us_page()"
 });
 formatter.result({
-  "duration": 410589618,
+  "duration": 253314232,
   "status": "passed"
 });
 formatter.match({
@@ -154,7 +232,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_the_first_name(String)"
 });
 formatter.result({
-  "duration": 270260773,
+  "duration": 268441261,
   "status": "passed"
 });
 formatter.match({
@@ -167,7 +245,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_last_name(String)"
 });
 formatter.result({
-  "duration": 165092505,
+  "duration": 130669291,
   "status": "passed"
 });
 formatter.match({
@@ -180,7 +258,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_email(String)"
 });
 formatter.result({
-  "duration": 203235453,
+  "duration": 195827338,
   "status": "passed"
 });
 formatter.match({
@@ -193,25 +271,25 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_a_comment(String)"
 });
 formatter.result({
-  "duration": 192470520,
+  "duration": 212681854,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 568433888,
+  "duration": 574718783,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.user_is_landed_on_the_thank_you_page()"
 });
 formatter.result({
-  "duration": 2078282704,
+  "duration": 2064450185,
   "status": "passed"
 });
 formatter.after({
-  "duration": 166197734,
+  "duration": 126804736,
   "status": "passed"
 });
 });

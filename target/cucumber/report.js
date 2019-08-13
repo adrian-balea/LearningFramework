@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2194076427,
+  "duration": 2200871565,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,36 +48,36 @@ formatter.match({
   "location": "ClickButtonsSteps.user_navigates_to_click_buttons_page()"
 });
 formatter.result({
-  "duration": 424931001,
+  "duration": 405337092,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.click_on_the_webelement_click_button()"
 });
 formatter.result({
-  "duration": 163718185,
+  "duration": 175070610,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.user_closes_the_popup()"
 });
 formatter.result({
-  "duration": 641996523,
+  "duration": 648351112,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.the_popup_is_closed()"
 });
 formatter.result({
-  "duration": 543838684,
+  "duration": 540998342,
   "status": "passed"
 });
 formatter.after({
-  "duration": 137461960,
+  "duration": 138791266,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1211221810,
+  "duration": 1176912289,
   "status": "passed"
 });
 formatter.scenario({
@@ -112,32 +112,32 @@ formatter.match({
   "location": "ClickButtonsSteps.user_navigates_to_click_buttons_page()"
 });
 formatter.result({
-  "duration": 229694624,
+  "duration": 226857430,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.clicks_on_the_second_button()"
 });
 formatter.result({
-  "duration": 1142098665,
+  "duration": 1135022563,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.user_closes_the_second_button()"
 });
 formatter.result({
-  "duration": 114145297,
+  "duration": 131471947,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.second_popup_is_closed()"
 });
 formatter.result({
-  "duration": 532434181,
+  "duration": 532134036,
   "status": "passed"
 });
 formatter.after({
-  "duration": 125965279,
+  "duration": 130079665,
   "status": "passed"
 });
 formatter.uri("SumbitContactUsForm.feature");
@@ -221,7 +221,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1081418800,
+  "duration": 1187621787,
   "status": "passed"
 });
 formatter.scenario({
@@ -283,7 +283,7 @@ formatter.match({
   "location": "ContactUsSteps.user_navigates_to_contact_us_page()"
 });
 formatter.result({
-  "duration": 246643842,
+  "duration": 235064118,
   "status": "passed"
 });
 formatter.match({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_the_first_name(String)"
 });
 formatter.result({
-  "duration": 309031194,
+  "duration": 279813280,
   "status": "passed"
 });
 formatter.match({
@@ -309,7 +309,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_last_name(String)"
 });
 formatter.result({
-  "duration": 131999696,
+  "duration": 128495717,
   "status": "passed"
 });
 formatter.match({
@@ -322,7 +322,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_email(String)"
 });
 formatter.result({
-  "duration": 177132269,
+  "duration": 181807658,
   "status": "passed"
 });
 formatter.match({
@@ -335,25 +335,25 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_a_comment(String)"
 });
 formatter.result({
-  "duration": 192340767,
+  "duration": 178588879,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 638016838,
+  "duration": 650689713,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.user_is_landed_on_the_thank_you_page()"
 });
 formatter.result({
-  "duration": 1065600457,
+  "duration": 1071313966,
   "status": "passed"
 });
 formatter.after({
-  "duration": 134638168,
+  "duration": 156123397,
   "status": "passed"
 });
 });

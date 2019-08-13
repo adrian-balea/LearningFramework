@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c77f3a1-3e87-4380-a918-57779ed422ca" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ClickButtons_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Util/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Util/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/featureFiles/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/featureFiles/SumbitContactUsForm.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ContactUsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ContactUsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/ClickButtons_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ClickButtons_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/runner/MainRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="90">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -48,20 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/ClickButtons_Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="175">
+              <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,9 +53,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/ContactUsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="720">
               <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/ContactUs_Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
+            <state relative-caret-position="480">
               <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="90">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -165,10 +160,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Util/DriverFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/runner/MainRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pageObjects/ClickButtons_Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/ContactUsSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjects/ClickButtons_Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java" />
       </list>
     </option>
   </component>
@@ -321,7 +316,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565706148746" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565709784767" />
     <property name="last.edited.regexp" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BAT_Automation/batautomation/pom.xml" />
     <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
@@ -382,15 +377,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login into account with correct credentials (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Click the first button and close the popup" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/featureFiles/SumbitContactUsForm.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="CucumberFramework" />
-      <option name="NAME_FILTER" value="^Login into account with correct credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login into account with correct credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login into account with correct credentials" />
+      <option name="NAME_FILTER" value="^Click the first button and close the popup$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Click the first button and close the popup$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Click the first button and close the popup" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -401,15 +396,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Click the second button and close the popup" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="CucumberFramework" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="NAME_FILTER" value="^Click the second button and close the popup$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Click the second button and close the popup$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Click the second button and close the popup" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -450,19 +445,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainRunner" />
       <item itemvalue="Cucumber java.Feature: ClickButtons" />
-      <item itemvalue="Cucumber java.Scenario: Login into account with correct credentials (2)" />
-      <item itemvalue="Cucumber java.Scenario: " />
       <item itemvalue="Cucumber java.Scenario: Click the buttons" />
+      <item itemvalue="Cucumber java.Scenario: Click the second button and close the popup" />
+      <item itemvalue="Cucumber java.Scenario: Click the first button and close the popup" />
+      <item itemvalue="JUnit.MainRunner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainRunner" />
+        <item itemvalue="Cucumber java.Scenario: Click the first button and close the popup" />
+        <item itemvalue="Cucumber java.Scenario: Click the second button and close the popup" />
         <item itemvalue="Cucumber java.Feature: ClickButtons" />
         <item itemvalue="Cucumber java.Scenario: Click the buttons" />
-        <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="Cucumber java.Scenario: Login into account with correct credentials (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -480,34 +475,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__ClickButtons - 2019.08.13 at 15h 02m 04s.xml">
-      <configuration name="Feature: ClickButtons" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Click_the_buttons - 2019.08.13 at 15h 03m 46s.xml">
-      <configuration name="Scenario: Click the buttons" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__ClickButtons - 2019.08.13 at 15h 05m 12s.xml">
-      <configuration name="Feature: ClickButtons" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Click_the_buttons - 2019.08.13 at 15h 05m 51s.xml">
-      <configuration name="Scenario: Click the buttons" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__ClickButtons - 2019.08.13 at 15h 14m 18s.xml">
-      <configuration name="Feature: ClickButtons" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Click_the_buttons - 2019.08.13 at 15h 15m 36s.xml">
-      <configuration name="Scenario: Click the buttons" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__ClickButtons - 2019.08.13 at 15h 16m 50s.xml">
-      <configuration name="Feature: ClickButtons" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__ClickButtons - 2019.08.13 at 15h 17m 42s.xml">
-      <configuration name="Feature: ClickButtons" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__ClickButtons - 2019.08.13 at 15h 18m 47s.xml">
       <configuration name="Feature: ClickButtons" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="MainRunner - 2019.08.13 at 15h 22m 10s.xml">
+      <configuration name="MainRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainRunner - 2019.08.13 at 15h 24m 29s.xml">
+      <configuration name="MainRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Scenario__Click_the_second_button_and_close_the_popup - 2019.08.13 at 16h 06m 05s.xml">
+      <configuration name="Scenario: Click the second button and close the popup" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__ClickButtons - 2019.08.13 at 16h 07m 28s.xml">
+      <configuration name="Feature: ClickButtons" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__ClickButtons - 2019.08.13 at 16h 11m 56s.xml">
+      <configuration name="Feature: ClickButtons" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Click_the_second_button_and_close_the_popup - 2019.08.13 at 16h 12m 44s.xml">
+      <configuration name="Scenario: Click the second button and close the popup" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Click_the_second_button_and_close_the_popup - 2019.08.13 at 16h 18m 19s.xml">
+      <configuration name="Scenario: Click the second button and close the popup" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Click_the_first_button_and_close_the_popup - 2019.08.13 at 16h 20m 01s.xml">
+      <configuration name="Scenario: Click the first button and close the popup" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MainRunner - 2019.08.13 at 16h 20m 33s.xml">
       <configuration name="MainRunner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -528,7 +523,7 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32847682" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.4384106" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.5112583" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -593,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/featureFiles/SumbitContactUsForm.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/Homepage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -617,17 +605,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/featureFiles/SumbitContactUsForm.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/ContactUs_Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -644,10 +632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/ClickButtons_Page.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ContactUsSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="720">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -656,25 +644,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runner/MainRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="90">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/ContactUs_Page.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/ClickButtons_Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="175">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ContactUsSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/featureFiles/ClickButtons.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ClickButtonsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

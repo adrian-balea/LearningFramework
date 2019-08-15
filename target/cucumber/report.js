@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2200871565,
+  "duration": 2034331589,
   "status": "passed"
 });
 formatter.scenario({
@@ -41,43 +41,43 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "the popup1 is closed",
+  "name": "check that the first popup is closed",
   "keyword": "Then "
 });
 formatter.match({
   "location": "ClickButtonsSteps.user_navigates_to_click_buttons_page()"
 });
 formatter.result({
-  "duration": 405337092,
+  "duration": 485464827,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.click_on_the_webelement_click_button()"
 });
 formatter.result({
-  "duration": 175070610,
+  "duration": 149294715,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.user_closes_the_popup()"
 });
 formatter.result({
-  "duration": 648351112,
+  "duration": 628823593,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.the_popup_is_closed()"
 });
 formatter.result({
-  "duration": 540998342,
+  "duration": 534096428,
   "status": "passed"
 });
 formatter.after({
-  "duration": 138791266,
+  "duration": 116771949,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1176912289,
+  "duration": 1035599387,
   "status": "passed"
 });
 formatter.scenario({
@@ -100,44 +100,108 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "user closes the second button",
+  "name": "user closes the second popup",
   "keyword": "When "
 });
 formatter.step({
   "line": 14,
-  "name": "second popup is closed",
+  "name": "check that the second popup is closed",
   "keyword": "Then "
 });
 formatter.match({
   "location": "ClickButtonsSteps.user_navigates_to_click_buttons_page()"
 });
 formatter.result({
-  "duration": 226857430,
+  "duration": 341461157,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.clicks_on_the_second_button()"
 });
 formatter.result({
-  "duration": 1135022563,
+  "duration": 1119988908,
   "status": "passed"
 });
 formatter.match({
-  "location": "ClickButtonsSteps.user_closes_the_second_button()"
+  "location": "ClickButtonsSteps.user_closes_the_second_popup()"
 });
 formatter.result({
-  "duration": 131471947,
+  "duration": 95854254,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtonsSteps.second_popup_is_closed()"
 });
 formatter.result({
-  "duration": 532134036,
+  "duration": 532965034,
   "status": "passed"
 });
 formatter.after({
-  "duration": 130079665,
+  "duration": 110653060,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1116944238,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Click the third button and close the popup",
+  "description": "",
+  "id": "click-the-buttons;click-the-third-button-and-close-the-popup",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 17,
+  "name": "User navigates to click buttons page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 18,
+  "name": "clicks on the third button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "user closes the third popup",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "check that the third popup is closed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ClickButtonsSteps.user_navigates_to_click_buttons_page()"
+});
+formatter.result({
+  "duration": 365210411,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ClickButtonsSteps.clicks_on_the_third_button()"
+});
+formatter.result({
+  "duration": 229200726,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ClickButtonsSteps.user_closes_the_third_popup()"
+});
+formatter.result({
+  "duration": 616328411,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ClickButtonsSteps.third_popup_is_closed()"
+});
+formatter.result({
+  "duration": 531662900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 103212280,
   "status": "passed"
 });
 formatter.uri("SumbitContactUsForm.feature");
@@ -221,7 +285,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1187621787,
+  "duration": 1078296670,
   "status": "passed"
 });
 formatter.scenario({
@@ -283,7 +347,7 @@ formatter.match({
   "location": "ContactUsSteps.user_navigates_to_contact_us_page()"
 });
 formatter.result({
-  "duration": 235064118,
+  "duration": 351787464,
   "status": "passed"
 });
 formatter.match({
@@ -296,7 +360,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_the_first_name(String)"
 });
 formatter.result({
-  "duration": 279813280,
+  "duration": 190894630,
   "status": "passed"
 });
 formatter.match({
@@ -309,7 +373,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_last_name(String)"
 });
 formatter.result({
-  "duration": 128495717,
+  "duration": 111316352,
   "status": "passed"
 });
 formatter.match({
@@ -322,7 +386,7 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_email(String)"
 });
 formatter.result({
-  "duration": 181807658,
+  "duration": 165693502,
   "status": "passed"
 });
 formatter.match({
@@ -335,25 +399,25 @@ formatter.match({
   "location": "ContactUsSteps.user_enters_a_comment(String)"
 });
 formatter.result({
-  "duration": 178588879,
+  "duration": 161720623,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 650689713,
+  "duration": 806880322,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.user_is_landed_on_the_thank_you_page()"
 });
 formatter.result({
-  "duration": 1071313966,
+  "duration": 1058656684,
   "status": "passed"
 });
 formatter.after({
-  "duration": 156123397,
+  "duration": 113327607,
   "status": "passed"
 });
 });

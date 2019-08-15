@@ -5,9 +5,6 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import pageObjects.ClickButtons_Page;
 
 import java.io.IOException;
 
@@ -30,25 +27,39 @@ public class ClickButtonsSteps extends DriverFactory {
         buttonsPage.closeFirstPopup();
     }
 
-    @Then("^the popup1 is closed$")
-    public void the_popup_is_closed() throws Throwable {
-        buttonsPage.checkPopup1isClosed();
-    }
-
     @And("^clicks on the second button$")
     public void clicks_on_the_second_button() throws Throwable {
         buttonsPage.clickOnSecondButton();
         Thread.sleep(1000);
     }
 
-    @When("^user closes the second button$")
-    public void user_closes_the_second_button() throws Throwable {
+    @And ("^clicks on the third button$")
+    public void clicks_on_the_third_button() throws Throwable {
+        buttonsPage.clickOnThirdButton();
+    }
+
+    @When("^user closes the second popup$")
+    public void user_closes_the_second_popup() throws Throwable {
        buttonsPage.closeSecondPopup();
     }
 
-    @Then("^second popup is closed$")
+    @When("^user closes the third popup$")
+    public void user_closes_the_third_popup() throws Throwable {
+        buttonsPage.closeThirdPopup();
+    }
+    @Then("^check that the first popup is closed$")
+    public void the_popup_is_closed() throws Throwable {
+        buttonsPage.checkPopup1isClosed();
+    }
+
+    @Then("^check that the second popup is closed$")
     public void second_popup_is_closed() throws Throwable {
         buttonsPage.checkPopup2isClosed();
+    }
+
+    @Then("^check that the third popup is closed$")
+    public void third_popup_is_closed() throws Throwable {
+        buttonsPage.checkPopup3isClosed();
     }
 
 

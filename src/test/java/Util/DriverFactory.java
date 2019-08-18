@@ -8,6 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 import pageObjects.ClickButtons_Page;
 import pageObjects.ContactUs_Page;
+import pageObjects.DropDownCheckboxesRadioButtons_Page;
 
 import java.util.concurrent.TimeUnit;
 
@@ -20,6 +21,7 @@ public class DriverFactory {
     }
     public static ContactUs_Page contactUsPage;
     public static ClickButtons_Page buttonsPage;
+    public static DropDownCheckboxesRadioButtons_Page dropDownCRB;
 
 
     public WebDriver getDriver() {
@@ -82,6 +84,7 @@ public class DriverFactory {
             driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
             contactUsPage = PageFactory.initElements(driver,ContactUs_Page.class);
             buttonsPage = PageFactory.initElements(driver, ClickButtons_Page.class);
+            dropDownCRB = PageFactory.initElements(driver, DropDownCheckboxesRadioButtons_Page.class);
         }
         return driver;
     }

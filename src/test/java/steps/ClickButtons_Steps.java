@@ -8,7 +8,7 @@ import cucumber.api.java.en.When;
 
 import java.io.IOException;
 
-public class ClickButtonsSteps extends DriverFactory {
+public class ClickButtons_Steps extends DriverFactory {
 
     @Given("^User navigates to click buttons page$")
     public void user_navigates_to_click_buttons_page() throws IOException, InterruptedException {

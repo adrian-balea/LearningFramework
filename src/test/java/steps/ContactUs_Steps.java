@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 
 import java.io.IOException;
 
-public class ContactUsSteps extends DriverFactory {
+public class ContactUs_Steps extends DriverFactory {
 
 
     @Given ("^User navigates to contact us page$")
@@ -40,7 +40,6 @@ public class ContactUsSteps extends DriverFactory {
     @When("^user clicks on the submit button$")
     public void user_clicks_on_the_submit_button() throws Throwable {
         contactUsPage.submitForm();
-
     }
 
     @Then("^user is landed on the thank you page$")

@@ -1,14 +1,22 @@
 package pageObjects;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class DropDownCheckboxesRadioButtons_Page extends BasePage {
     public @FindBy (id="dropdowm-menu-1") WebElement dropdown1;
     public @FindBy (id="dropdowm-menu-2") WebElement dropdown2;
     public @FindBy (id="dropdowm-menu-3") WebElement dropdown3;
+    public @FindBy (xpath="//*[@id='checkboxes']/label[1]/input") WebElement checkbox1;
+    public @FindBy (xpath="//*[@id='checkboxes']/label[2]/input") WebElement checkbox2;
+    public @FindBy (xpath="//*[@id='checkboxes']/label[3]/input") WebElement checkbox3;
+    public @FindBy (xpath="//*[@id='checkboxes']/label[4]/input") WebElement checkbox4;
 
     public DropDownCheckboxesRadioButtons_Page() throws IOException {
         super();
@@ -37,9 +45,45 @@ public class DropDownCheckboxesRadioButtons_Page extends BasePage {
         return new DropDownCheckboxesRadioButtons_Page();
     }
 
+    public DropDownCheckboxesRadioButtons_Page selectAllCheckboxes () throws Exception{
+        /** Selects all unchecked checkboxes on the DropDownCheckboxRadioButtons page **/
+
+        if (!(checkbox1.isSelected()) ) {
+            waitAndClickElement(checkbox1);
+        }
+        if (!(checkbox2.isSelected()) ) {
+            waitAndClickElement(checkbox2);
+        }
+        if (!(checkbox3.isSelected()) ) {
+            waitAndClickElement(checkbox3);
+        }
+        if (!(checkbox4.isSelected()) ) {
+            waitAndClickElement(checkbox4);
+        }
+        return new DropDownCheckboxesRadioButtons_Page();
+    }
+
     public DropDownCheckboxesRadioButtons_Page verifyDropDownValues (String ProgramingLanguage, String Utility, String UiTechnology) throws Exception {
-        System.out.println("Dropdown 1 values is" + dropdown1.getText());
-        System.out.println("Dropdown 2 values is" + dropdown2.getText());
+
+        Assert.assertEquals("Checking the programming language dropdown ",ProgramingLanguage.toLowerCase(),dropdown1.getAttribute("value").toLowerCase());
+
+        Assert.assertEquals("Checking the utility dropdown ",Utility.toLowerCase(),dropdown2.getAttribute("value").toLowerCase());
+
+        Assert.assertEquals("Checking the programming UI technology dropdown ",UiTechnology.toLowerCase(),dropdown3.getAttribute("value").toLowerCase());
+
+        return new DropDownCheckboxesRadioButtons_Page();
+    }
+
+    public DropDownCheckboxesRadioButtons_Page verifyCheckboxesAreSelected () throws IOException {
+
+        List<WebElement> checkboxes = Arrays.asList(checkbox1,checkbox2,checkbox3,checkbox4);
+
+        int i = 1;
+        for (WebElement checkbox : checkboxes) {
+            Assert.assertTrue("Checking checkbox "+i,checkbox.isSelected());
+            i++;
+        }
+
         return new DropDownCheckboxesRadioButtons_Page();
     }
 }

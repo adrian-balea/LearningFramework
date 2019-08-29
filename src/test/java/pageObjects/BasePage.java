@@ -53,7 +53,7 @@ public class BasePage extends DriverFactory {
         while (!clicked && attempts < 10) {
             try {
                 this.wait.until(ExpectedConditions.elementToBeClickable(element)).click();
-                System.out.println("Successfully clicked on the WebElement: " + "<" + element.toString() + ">");
+//                System.out.println("Successfully clicked on the WebElement: " + "<" + element.toString() + ">");
                 clicked = true;
             } catch (Exception e) {
                 System.out.println("Unable to wait and click on WebElement, Exception: " + e.getMessage());

@@ -1,6 +1,5 @@
-**/target/
-/target/
-*/target/*
+target/**
+
 **/allure-results/**
 .classpath
 .project
@@ -13,3 +12,5 @@
 
 *.iml
 *.idea
+
+runner/**

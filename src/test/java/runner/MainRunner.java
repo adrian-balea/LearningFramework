@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
             features = ("src/test/java/featureFiles"),
             glue = ("steps/"),
             monochrome=true,
-            tags = {},
+            tags = {"@checkboxes"},
             plugin = {"pretty","html:target/cucumber", "io.qameta.allure.cucumberjvm.AllureCucumberJvm"}
     )
 

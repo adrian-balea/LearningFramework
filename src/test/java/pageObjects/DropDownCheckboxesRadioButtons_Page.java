@@ -18,6 +18,7 @@ public class DropDownCheckboxesRadioButtons_Page extends BasePage {
     public @FindBy (xpath="//*[@id='checkboxes']/label[3]/input") WebElement checkbox3;
     public @FindBy (xpath="//*[@id='checkboxes']/label[4]/input") WebElement checkbox4;
 
+
     public DropDownCheckboxesRadioButtons_Page() throws IOException {
         super();
     }
@@ -46,20 +47,17 @@ public class DropDownCheckboxesRadioButtons_Page extends BasePage {
     }
 
     public DropDownCheckboxesRadioButtons_Page selectAllCheckboxes () throws Exception{
-        /** Selects all unchecked checkboxes on the DropDownCheckboxRadioButtons page **/
+        /** Selects all unchecked checkboxes on the DropDownCheckboxRadioButtons page */
 
-        if (!(checkbox1.isSelected()) ) {
-            waitAndClickElement(checkbox1);
+        List<WebElement> checkboxes = Arrays.asList(checkbox1,checkbox2,checkbox3,checkbox4);
+
+        for (WebElement checkbox : checkboxes) {
+            if (!(checkbox.isSelected()) ) {
+            waitAndClickElement(checkbox);
         }
-        if (!(checkbox2.isSelected()) ) {
-            waitAndClickElement(checkbox2);
         }
-        if (!(checkbox3.isSelected()) ) {
-            waitAndClickElement(checkbox3);
-        }
-        if (!(checkbox4.isSelected()) ) {
-            waitAndClickElement(checkbox4);
-        }
+
+
         return new DropDownCheckboxesRadioButtons_Page();
     }
 

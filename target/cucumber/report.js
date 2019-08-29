@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2234238716,
+  "duration": 2090481002,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,27 +43,25 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.user_navigates_to_Dropdown_Checkboxes_RadioButtons_page()"
 });
 formatter.result({
-  "duration": 593983948,
+  "duration": 593410707,
   "status": "passed"
 });
 formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_check_all_checkboxes()"
 });
 formatter.result({
-  "duration": 334778170,
+  "duration": 433976442,
   "status": "passed"
 });
 formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.all_the_checkboxes_should_be_selected()"
 });
 formatter.result({
-  "duration": 103082131,
-  "error_message": "java.lang.AssertionError: Checking checkbox 2\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat pageObjects.DropDownCheckboxesRadioButtons_Page.verifyCheckboxesAreSelected(DropDownCheckboxesRadioButtons_Page.java:83)\n\tat steps.DropDownCheckoxesRadioButtons_Steps.all_the_checkboxes_should_be_selected(DropDownCheckoxesRadioButtons_Steps.java:45)\n\tat ✽.Then All the checkboxes should be selected(DropDownCheckboxRadioButtons.feature:20)\n",
-  "status": "failed"
+  "duration": 78229951,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 625100718,
+  "duration": 121835404,
   "status": "passed"
 });
 });

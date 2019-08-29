@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2090481002,
+  "duration": 2114531884,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.user_navigates_to_Dropdown_Checkboxes_RadioButtons_page()"
 });
 formatter.result({
-  "duration": 593410707,
+  "duration": 676946705,
   "status": "passed"
 });
 formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_check_all_checkboxes()"
 });
 formatter.result({
-  "duration": 433976442,
+  "duration": 412940573,
   "status": "passed"
 });
 formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.all_the_checkboxes_should_be_selected()"
 });
 formatter.result({
-  "duration": 78229951,
+  "duration": 78201805,
   "status": "passed"
 });
 formatter.after({
-  "duration": 121835404,
+  "duration": 125563657,
   "status": "passed"
 });
 });

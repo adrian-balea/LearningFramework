@@ -14,3 +14,6 @@ target/**
 *.idea
 
 runner/**
+
+src/test/java/runner/MainRunner.java
+target/cucumber/report.js

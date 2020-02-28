@@ -2,6 +2,7 @@ package Util;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -56,7 +57,11 @@ public class DriverFactory {
                         {
                             System.setProperty("webdriver.chrome.driver", Constant.WIN_CHROME_DRIVER_DIRECTORY);
                         }
-                        driver = new ChromeDriver();
+//                        Added this code to avoid an error popup
+                        ChromeOptions options = new ChromeOptions();
+                        options.setExperimentalOption("useAutomationExtension", false);
+                        driver = new ChromeDriver(options);
+//                        driver = new ChromeDriver();
                         driver.manage().window().maximize();
                     }
                     break;

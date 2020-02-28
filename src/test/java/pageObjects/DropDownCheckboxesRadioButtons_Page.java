@@ -65,7 +65,9 @@ public class DropDownCheckboxesRadioButtons_Page extends BasePage {
 
         Assert.assertEquals("Checking the programming language dropdown ",ProgramingLanguage.toLowerCase(),dropdown1.getAttribute("value").toLowerCase());
 
-        Assert.assertEquals("Checking the utility dropdown ",Utility.toLowerCase(),dropdown2.getAttribute("value").toLowerCase());
+//        Assert.assertEquals("Checking the utility dropdown ",Utility.toLowerCase(),dropdown2.getAttribute("value").toLowerCase());
+
+        Assert.assertEquals("Checking the utility dropdown ",Utility.toLowerCase(),"value");
 
         Assert.assertEquals("Checking the programming UI technology dropdown ",UiTechnology.toLowerCase(),dropdown3.getAttribute("value").toLowerCase());
 

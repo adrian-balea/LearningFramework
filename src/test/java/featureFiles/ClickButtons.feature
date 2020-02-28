@@ -1,6 +1,6 @@
 @Buttons
 Feature: Click the buttons
-
+    @OneTest
     Scenario: Click the first button and close the popup
         Given User navigates to click buttons page
         And clicks on the first button

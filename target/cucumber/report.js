@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2129343373,
+  "duration": 4042062347,
   "status": "passed"
 });
 formatter.scenario({
@@ -22,7 +22,13 @@ formatter.scenario({
   "description": "",
   "id": "click-the-buttons;click-the-first-button-and-close-the-popup",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@OneTest"
+    }
+  ]
 });
 formatter.step({
   "line": 5,
@@ -48,36 +54,36 @@ formatter.match({
   "location": "ClickButtons_Steps.user_navigates_to_click_buttons_page()"
 });
 formatter.result({
-  "duration": 471436344,
+  "duration": 478327206,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.click_on_the_webelement_click_button()"
 });
 formatter.result({
-  "duration": 148081687,
+  "duration": 230001064,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.user_closes_the_popup()"
 });
 formatter.result({
-  "duration": 612892830,
+  "duration": 663507711,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.the_popup_is_closed()"
 });
 formatter.result({
-  "duration": 536095632,
+  "duration": 528337981,
   "status": "passed"
 });
 formatter.after({
-  "duration": 124012825,
+  "duration": 962905354,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1210219441,
+  "duration": 3221738846,
   "status": "passed"
 });
 formatter.scenario({
@@ -112,36 +118,36 @@ formatter.match({
   "location": "ClickButtons_Steps.user_navigates_to_click_buttons_page()"
 });
 formatter.result({
-  "duration": 586510435,
+  "duration": 379030451,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.clicks_on_the_second_button()"
 });
 formatter.result({
-  "duration": 1106479292,
+  "duration": 1150859194,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.user_closes_the_second_popup()"
 });
 formatter.result({
-  "duration": 96306593,
+  "duration": 121968977,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.second_popup_is_closed()"
 });
 formatter.result({
-  "duration": 529407989,
+  "duration": 527047718,
   "status": "passed"
 });
 formatter.after({
-  "duration": 121986406,
+  "duration": 825808601,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1088213516,
+  "duration": 3289759290,
   "status": "passed"
 });
 formatter.scenario({
@@ -176,32 +182,32 @@ formatter.match({
   "location": "ClickButtons_Steps.user_navigates_to_click_buttons_page()"
 });
 formatter.result({
-  "duration": 1481265106,
+  "duration": 334313047,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.clicks_on_the_third_button()"
 });
 formatter.result({
-  "duration": 282442838,
+  "duration": 351169635,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.user_closes_the_third_popup()"
 });
 formatter.result({
-  "duration": 618705810,
+  "duration": 626737116,
   "status": "passed"
 });
 formatter.match({
   "location": "ClickButtons_Steps.third_popup_is_closed()"
 });
 formatter.result({
-  "duration": 530232785,
+  "duration": 533898154,
   "status": "passed"
 });
 formatter.after({
-  "duration": 118499038,
+  "duration": 804521698,
   "status": "passed"
 });
 formatter.uri("ContactUsForm.feature");
@@ -285,7 +291,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1160155517,
+  "duration": 3212000577,
   "status": "passed"
 });
 formatter.scenario({
@@ -347,7 +353,7 @@ formatter.match({
   "location": "ContactUs_Steps.user_navigates_to_contact_us_page()"
 });
 formatter.result({
-  "duration": 284494219,
+  "duration": 313337773,
   "status": "passed"
 });
 formatter.match({
@@ -360,7 +366,7 @@ formatter.match({
   "location": "ContactUs_Steps.user_enters_the_first_name(String)"
 });
 formatter.result({
-  "duration": 292152878,
+  "duration": 287099912,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +379,7 @@ formatter.match({
   "location": "ContactUs_Steps.user_enters_last_name(String)"
 });
 formatter.result({
-  "duration": 118509714,
+  "duration": 142390664,
   "status": "passed"
 });
 formatter.match({
@@ -386,7 +392,7 @@ formatter.match({
   "location": "ContactUs_Steps.user_enters_email(String)"
 });
 formatter.result({
-  "duration": 166899670,
+  "duration": 208718481,
   "status": "passed"
 });
 formatter.match({
@@ -399,25 +405,25 @@ formatter.match({
   "location": "ContactUs_Steps.user_enters_a_comment(String)"
 });
 formatter.result({
-  "duration": 188264522,
+  "duration": 230297030,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Steps.user_clicks_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 681959455,
+  "duration": 414584775,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Steps.user_is_landed_on_the_thank_you_page()"
 });
 formatter.result({
-  "duration": 1059568686,
+  "duration": 1084500052,
   "status": "passed"
 });
 formatter.after({
-  "duration": 112590143,
+  "duration": 709286381,
   "status": "passed"
 });
 formatter.uri("DropDownCheckboxRadioButtons.feature");
@@ -504,7 +510,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1089236914,
+  "duration": 3200009613,
   "status": "passed"
 });
 formatter.scenario({
@@ -564,7 +570,7 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.user_navigates_to_Dropdown_Checkboxes_RadioButtons_page()"
 });
 formatter.result({
-  "duration": 479639931,
+  "duration": 404654235,
   "status": "passed"
 });
 formatter.match({
@@ -577,7 +583,7 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_select_from_the_programming_language_drop_down(String)"
 });
 formatter.result({
-  "duration": 597908729,
+  "duration": 520426278,
   "status": "passed"
 });
 formatter.match({
@@ -590,7 +596,7 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_select_from_the_utilities_drop_down(String)"
 });
 formatter.result({
-  "duration": 467306677,
+  "duration": 331535391,
   "status": "passed"
 });
 formatter.match({
@@ -603,7 +609,7 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_select_from_the_UI_technologies(String)"
 });
 formatter.result({
-  "duration": 491978906,
+  "duration": 318857440,
   "status": "passed"
 });
 formatter.match({
@@ -624,15 +630,17 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.and_are_displayed_in_the_fields(String,String,String)"
 });
 formatter.result({
-  "duration": 42764638,
-  "status": "passed"
+  "duration": 22569605,
+  "error_message": "org.junit.ComparisonFailure: Checking the utility dropdown  expected:\u003c[testng]\u003e but was:\u003c[value]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat pageObjects.DropDownCheckboxesRadioButtons_Page.verifyDropDownValues(DropDownCheckboxesRadioButtons_Page.java:70)\r\n\tat steps.DropDownCheckoxesRadioButtons_Steps.and_are_displayed_in_the_fields(DropDownCheckoxesRadioButtons_Steps.java:39)\r\n\tat ✽.Then \"Python\",\"TestNG\" and \"JQuery\" are displayed in the fields(DropDownCheckboxRadioButtons.feature:9)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 114435015,
+  "duration": 1227468066,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1154523890,
+  "duration": 3180205783,
   "status": "passed"
 });
 formatter.scenario({
@@ -692,7 +700,7 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.user_navigates_to_Dropdown_Checkboxes_RadioButtons_page()"
 });
 formatter.result({
-  "duration": 453593920,
+  "duration": 387980736,
   "status": "passed"
 });
 formatter.match({
@@ -705,7 +713,7 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_select_from_the_programming_language_drop_down(String)"
 });
 formatter.result({
-  "duration": 543460133,
+  "duration": 409467471,
   "status": "passed"
 });
 formatter.match({
@@ -718,7 +726,7 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_select_from_the_utilities_drop_down(String)"
 });
 formatter.result({
-  "duration": 467913888,
+  "duration": 379632105,
   "status": "passed"
 });
 formatter.match({
@@ -731,7 +739,7 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_select_from_the_UI_technologies(String)"
 });
 formatter.result({
-  "duration": 490973821,
+  "duration": 323868347,
   "status": "passed"
 });
 formatter.match({
@@ -752,15 +760,17 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.and_are_displayed_in_the_fields(String,String,String)"
 });
 formatter.result({
-  "duration": 46051464,
-  "status": "passed"
+  "duration": 19174091,
+  "error_message": "org.junit.ComparisonFailure: Checking the utility dropdown  expected:\u003c[junit]\u003e but was:\u003c[value]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat pageObjects.DropDownCheckboxesRadioButtons_Page.verifyDropDownValues(DropDownCheckboxesRadioButtons_Page.java:70)\r\n\tat steps.DropDownCheckoxesRadioButtons_Steps.and_are_displayed_in_the_fields(DropDownCheckoxesRadioButtons_Steps.java:39)\r\n\tat ✽.Then \"c#\",\"JUnit\" and \"JavaScript\" are displayed in the fields(DropDownCheckboxRadioButtons.feature:9)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 124283457,
+  "duration": 1921653135,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1142054532,
+  "duration": 3183686089,
   "status": "passed"
 });
 formatter.scenario({
@@ -796,25 +806,25 @@ formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.user_navigates_to_Dropdown_Checkboxes_RadioButtons_page()"
 });
 formatter.result({
-  "duration": 716289594,
+  "duration": 369264096,
   "status": "passed"
 });
 formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.i_check_all_checkboxes()"
 });
 formatter.result({
-  "duration": 368504153,
+  "duration": 547832343,
   "status": "passed"
 });
 formatter.match({
   "location": "DropDownCheckoxesRadioButtons_Steps.all_the_checkboxes_should_be_selected()"
 });
 formatter.result({
-  "duration": 66581463,
+  "duration": 80278209,
   "status": "passed"
 });
 formatter.after({
-  "duration": 115059677,
+  "duration": 731194921,
   "status": "passed"
 });
 });

@@ -2,6 +2,7 @@ package runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
@@ -14,5 +15,5 @@ import org.junit.runner.RunWith;
             plugin = {"pretty","html:target/cucumber", "io.qameta.allure.cucumberjvm.AllureCucumberJvm"}
     )
 
-public class MainRunner {
+public class MainRunner extends AbstractTestNGCucumberTests {
 }
